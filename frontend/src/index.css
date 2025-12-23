@@ -1,0 +1,32 @@
+:root {
+  font-family: 'Space Grotesk', 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #201a16;
+  --font-display: 'Fraunces', 'Georgia', serif;
+  --ink-950: #1b1613;
+  --ink-900: #231e1a;
+  --ink-800: #3a322b;
+  --ink-700: #4b4239;
+  --ink-600: #61564c;
+  --ink-500: #7b6f64;
+  --accent-600: #e06c54;
+  --teal-800: #245857;
+  --teal-700: #2c6b68;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f6f0e8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
